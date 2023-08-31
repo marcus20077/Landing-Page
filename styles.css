@@ -1,0 +1,148 @@
+/* Reset de Estilos para Normalizar o Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: rgb(235, 235, 235);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(19, 17, 17);
+    color: rgb(248, 248, 248);
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 330px; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+   
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: rgb(24, 20, 20);
+}
+
+/* About Section */
+.about {
+    background-color: rgb(26, 25, 25);
+    padding: 4rem 0;
+    text-align: center;
+    border-color: #f0f0f0;
+    border-width: 3px;
+}
+
+/* Services Section */
+.services {
+    background-color: #f0f0f0
+  margin-top: 200px;
+}
+
+.services ul {
+    list-style-type: none;
+}
+
+.services ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.marcus{
+  background-color: rgb(16, 45, 214);
+  padding: 10px;
+  border-radius: 40px;
+color: gainsboro;
+text-decoration: none;
+}
+
+.marcus:hover{
+  background-color: rgb(0, 119, 255);
+
+}
