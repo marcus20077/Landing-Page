@@ -1,29 +1,31 @@
-/* Reset de Estilos para Normalizar o Layout */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos Gerais */
+.section {
+    color: #fb0000;
+   
+}
 body {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.6;
-    background-color: #000000;
-    color: rgb(235, 235, 235);
+    background-color: #04012d;
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
 }
-
 header {
-    background-color: rgb(19, 17, 17);
-    color: rgb(248, 248, 248);
+     text-align: center;
+    background-color: rgb(0, 4, 64);
+    color: rgb(0, 0, 0);
     padding: 1rem 0;
-}
-
+   }
+ 
 nav ul {
     list-style-type: none;
-    margin-left: 70px; 
+    margin-left: 70px;
 }
 
 nav ul li {
@@ -37,7 +39,6 @@ nav ul li a {
     font-weight: lighter;
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
     padding: 4rem 0;
@@ -50,12 +51,11 @@ nav ul li a {
 
 .hero p {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem
 }
 
 .cta-button {
     display: inline-block;
-   
     text-decoration: none;
     border: none;
     border-radius: 5px;
@@ -64,26 +64,26 @@ nav ul li a {
 }
 
 .cta-button:hover {
-    background-color: rgb(24, 20, 20);
+    background-color: rgb(255, 255, 255);
 }
 
-/* About Section */
+
 .about {
-    background-color: rgb(26, 25, 25);
+    background-color: rgb();
     padding: 4rem 0;
     text-align: center;
     border-color: #f0f0f0;
     border-width: 3px;
 }
 
-/* Services Section */
 .services {
-    background-color: #f0f0f0
+    background-color: #000000;
   margin-top: 200px;
 }
 
 .services ul {
     list-style-type: none;
+    color: rgb(255, 255, 255);
 }
 
 .services ul li {
@@ -91,12 +91,11 @@ nav ul li a {
     margin: 1rem 0;
 }
 
-/* Contact Section */
+
 .contact {
     padding: 4rem 0;
     text-align: center;
 }
-
 .contact form {
     text-align: left;
     max-width: 400px;
@@ -110,10 +109,9 @@ nav ul li a {
     width: 100%;
     margin-bottom: 1rem;
 }
-
 .contact button {
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -123,27 +121,170 @@ nav ul li a {
 }
 
 .contact button:hover {
-    background-color: #555;
+    background-color: rgb(9, 255, 0);
 }
 
-/* Footer Section */
+
 footer {
-    background-color: #333;
+    background-color: rgb(0, 4, 64);
     color: #fff;
     text-align: center;
     padding: 1rem 0;
 }
-
 .marcus{
-  background-color: rgb(16, 45, 214);
+  background-color: rgb(255, 255, 255);
   padding: 15px;
   border-radius: 5px;
-color: gainsboro;
+color: rgb(0, 0, 0);
 text-decoration: none;
+    font-family:Arial, sans-serif;
 }
+
+ 
+
+
 
 .marcus:hover{
-  background-color: rgb(0, 119, 255);
+  background-color: rgb(0, 255, 21);
+}
+
+.imagem-centralizada {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+.imagem-centralizada{
+    border-radius:50px;
+    height:300px
+
+
+
+
+}  
+
+
+.coluna {
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.coluna {
+    background-color: #000000;
+    border: 10px solid rgb(0, 4, 64);
+    text-align: center;
+    font-family: Arial, sans-serif;
+     border-radius: 30px;
+}
+
+h2 {
+    color: rgb(4, 248, 0);
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+.h2{
+    text-align: center;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ff000000;
+    border: 1px solid rgb(0, 247, 21);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+input[type="radio"] {
+    display: none; 
+}
+
+label {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+label::before {
+    content: "\2606"; 
+}
+
+label:hover::before,
+label:hover ~ label::before,
+input[type="radio"]:checked ~ label::before {
+    content: "\2605"; 
+    color: #00fb4b; 
+}
+
+
+textarea {
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 120px;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #00ff2ad3; 
+}
+
+
+.mapa{
+  
+  position: relative;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 400px;
+
+}
+
+    .faq-question:hover{
+       color: #00fb4b;
+    }
+
+       .faq-answer{
+       color: #ffffff;
+     font-size: 20px;
+    }
+    .faq-question{
+        font-style: unset;
+        font-size: 25px;
+        
+
+    }
+    .faq-list{
+        
+    }
+    
+    
