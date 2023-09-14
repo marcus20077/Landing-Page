@@ -268,23 +268,15 @@ input[type="submit"]:hover {
   margin-bottom: 400px;
 
 }
+.perg{
+  height:10vh ;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
 
-    .faq-question:hover{
-       color: #00fb4b;
-    }
-
-       .faq-answer{
-       color: #ffffff;
-     font-size: 20px;
-    }
-    .faq-question{
-        font-style: unset;
-        font-size: 25px;
-        
-
-    }
-    .faq-list{
-        
-    }
-    
-    
+}
+.perg details summary{
+  background-color: #0d10b7cc;
+  border-bottom: 3px solid #282828;
+}
