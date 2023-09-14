@@ -53,12 +53,29 @@
 
      <div class="faq-item">
             <div class="question">Vou ganhar um certificado?</div>
-            <div class="answer">Vai sim.</div>
+            <div class="answer">Sim, assim que o aluno concluir o ensino médio ele ira ganhar um certificado.</div>
         </div>
-    
+
+     <div class="faq-item">
+            <div class="question">Quais são os pré requisitos para ingressar no curso?</div>
+            <div class="answer"> Para ingresso no Curso Técnico Integrado ao Ensino Médio, o estudante deverá ter concluído o Ensino Fundamental. </div>
+        </div>
+
+         <div class="faq-item">
+            <div class="question">Quem serão os professores?</div>
+            <div class="answer"> Lucas josé (front-end, Banco de Ddos e APS) e Wesley Reinaldo (ciencias da Computação), a matéria de programação mobile tem suas aulas apresentadas através de uma chamada no google meet. </div>
+        </div>
     
 
     
+
+
+
+
+
+
+
+
     </div>
 
 
