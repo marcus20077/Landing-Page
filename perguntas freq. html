@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes</title>
+    <style>
+        /* Estilos CSS para melhorar a aparência */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .question {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .answer {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="duvidas">Dúvidas Frequentes</h1>
+        
+        <div class="faq-item">
+            <div class="question">Qual é o tempo de duração do curso?</div>
+            <div class="answer">O curso tem a duração de 3 anos totalizando 1200 horas </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="question">Qual é o valor para inscrição do curso?</div>
+            <div class="answer">O curso e totalmente de graça não haverá nenhum valor a ser pago pelas aulas ou materiasis (computadores e tablets)</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="question">Quantas matérias tem no curso?</div>
+            <div class="answer">O curso e composto por 5 matérias sendo elas: Banco de Dados, Programação front-end, Programação Mobile, APS(Analise e projeto de sistemas), Ciencias da Computação </div>
+        </div>
+
+     <div class="faq-item">
+            <div class="question">Vou ganhar um certificado?</div>
+            <div class="answer">Vai sim.</div>
+        </div>
+    
+    
+
+    
+    </div>
+
+
+
+
+    <script>
+        // JavaScript para tornar as respostas das perguntas visíveis/ocultas ao clicar na pergunta
+        const questions = document.querySelectorAll('.question');
+
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
