@@ -27,18 +27,20 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     padding: 15px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    background-color: rgb(0, 4, 64);
+    border: 1px solid rgb(5, 215, 26);
     border-radius: 20px;
+    border-width: 3px;
 }
 
 .answer {
     display: none;
     margin-top: 10px;
     padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: #f3f3f3;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
+    border-width: 3px;
 }
 
 /* Estilizando a seta de abertura/fechamento das perguntas */
@@ -53,4 +55,7 @@ h1 {
 }
 .duvidas{
   color: #f0f0f0;
+}
+.question{
+    color: #f0f0f0;
 }
