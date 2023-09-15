@@ -44,8 +44,19 @@
       <div class="answer"> Lucas josé (front-end, Banco de Ddos e APS) e Wesley Reinaldo (ciencias da Computação), a
         matéria de programação mobile tem suas aulas apresentadas através de uma chamada no google meet. </div>
     </div>
+ <script>
+        // JavaScript para tornar as respostas das perguntas visíveis/ocultas ao clicar na pergunta
+        const questions = document.querySelectorAll('.question');
 
-
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
 
   
 </html>
