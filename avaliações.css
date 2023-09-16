@@ -1,0 +1,50 @@
+ <style>
+        body {
+            font-family:cursive;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400vh;
+        }
+
+        .review-card {
+            background-color: rgb(38, 1, 138);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 30px;
+            padding: 10px;
+            width: 400px;
+            text-align: center;
+
+        }
+
+        .user-photo {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 10px;
+            background-color: #ccc;
+            overflow: hidden;
+           
+            }
+
+        .user-name {
+            font-weight: bold;
+            margin: 0;
+            color: #ccc;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .user-review {
+            margin: 10px 0;
+            color: #ccc;
+            font-family: 'Courier New', Courier, monospace;
+        }
+   
+    .user-rating{
+        color: #ccc;
+        font-family: 'Courier New', Courier, monospace;
+    }
+ </style>
