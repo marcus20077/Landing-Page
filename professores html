@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor</title>
+</head>
+<body>
+    <div class="professor1">
+        <img src="" alt="Foto do Professor">
+        <h2>Lucas José de Sousa</h2>
+        <p>Disciplina: Front End</p>
+        <p>Universidade: Nome da Universidade</p>
+        <p>Email: professor@email.com</p>
+    </div>
+</body>
+
+
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor</title>
+</head>
+<body>
+    <div class="professor2">
+        <img src="" alt="Foto do Professor">
+        <h2>Wesley Reinaldo Alves Tereza</h2>
+        <p>Disciplina: Front End</p>
+        <p>Universidade: Nome da Universidade</p>
+        <p>Email: professor@email.com</p>
+    </div>
+</body>
+</html>
