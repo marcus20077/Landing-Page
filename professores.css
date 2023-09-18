@@ -1,0 +1,63 @@
+/* Estilos CSS para formatar o campo do professor */
+.professor1 {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+.professor1 img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.professor1 h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.professor1 p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+}
+.professor1{
+  position: relative;
+  top: 10px;
+  left: -400px;
+}
+
+.professor2{
+  text-align: center;
+    padding: 20px;position: relative;
+  top: 10px;
+  left: 80px;0px;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+.professor2 img{
+  max-width: 100%;
+    border-radius: 50%;
+}
+.professor2 h2{
+margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+
+}
+.professor2 p {
+font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+
+}
+.professor2{
+  position: relative;
+  top: -176px;
+  left: 80px;
+}
