@@ -429,5 +429,17 @@ transform: scale(0.9);
 .coluna:hover{
     transform: scale(1.0);
 }
-
+.div-coment{
+  padding: 200px;
+  justify-content: center;
+ margin: 0;
+ margin-bottom: 0;
+}
+.fale h1{
+position: relative;
+top: -400px;
+}
+section{
+  padding:200px;
+}
  </style>
